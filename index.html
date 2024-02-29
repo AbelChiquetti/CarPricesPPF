@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ColorStable</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+			<div id="wrapper">
+				<img src="images/logo.png" id="logoheader">
+					<header id="header">
+						<div class="logo">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<p id="selecionar">Selecione abaixo a marca e modelo</p>
+								<div class="select-container">
+									<label for="marca"></label>
+									<select id="marca" onchange="populateModels()">
+									</select>
+								  </div>
+								  <div class="select-container">
+									<label for="modelo"></label>
+									<select id="modelo" onchange="calculatePrices()">
+									</select>
+								  </div>
+								  <div class="results">
+									<div class="parabrisa">
+									<img src="images/parabrisa.png" id="carro">
+									<p>Parabrisa: <span id="parabrisa"></span></p>
+									</div>
+									<div class="traseiro">
+									<img src="images/traseiro.png" id="carro">
+									<p>Traseira: <span id="traseiro"></span></p>
+									</div>
+									<div class="tetosolar">
+									<img src="images/tetosolar.png" id="carro">
+									<p>Teto Solar: <span id="tetosolar"></span></p>
+							  </div>
+							</div>
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+							</article>
+
+						<
+
+					</div>
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+			<script src="assets/js/script.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
