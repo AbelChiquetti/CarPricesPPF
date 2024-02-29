@@ -1295,7 +1295,6 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 10px;
-				max-height: 30rem;
 				overflow: hidden;
 			}
 
@@ -1447,7 +1446,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 1.5rem 0;
+				padding: none;
 			}
 
 				#header .content .inner {
@@ -1652,6 +1651,12 @@ input, select, textarea {
 			  cursor: pointer;
 			}
 
+			@media screen and (max-width: 480px) {
+				.logo{
+					display: none;
+			}
+			}
+			
 /* Footer */
 
 	#footer {
